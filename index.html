@@ -388,6 +388,7 @@ h2::after {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="WKzZ2g9r76Ixj-nLmMWUQGN5tKwV_z308eryrtMxXGE" />
     <title>Never Give Up Entertainment - Building High-Quality Flutter Apps</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -626,7 +627,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add real-time validation for inputs as user types/interacts
     formInputs.forEach(input => {
         input.addEventListener('blur', () => validateField(input)); // Validate on blur
-        input.addEventListener('input', () => { // Clear error when user starts typing again
+        input.addEventListener('input', () => {
             if (input.classList.contains('invalid')) {
                 validateField(input);
             }
